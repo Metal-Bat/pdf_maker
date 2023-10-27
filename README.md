@@ -42,5 +42,6 @@ i used my coworker html css, and i just don't have any clue the best html and cs
 so do not get mad at, and instead contribute.
 
 i solved the watermark problem in this project, so others can use the trick or make boiler plate out of this
-and i hope it helps you in a way
-Thank
+and i hope it helps you in a way.
+
+Thanks
