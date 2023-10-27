@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body class="container-fluid">
+    <table>
+        <thead>
+            <tr>
+                <td>
+                    <div class="header-space">&nbsp;</div>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div>
+                        <p>
+                            <b>
+                                dear {{ first_name }}
+                            </b>
+                            <br><br>
+
+                            we are happy to say that we love your participate in
+                            our event and we hope you have a grate day tonight
+                        </p>
+                    </div>
+                    date : {{ date }}
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    <div class="footer-space">&nbsp;</div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="header row border rounded-2">
+        <div class="col d-flex justify-content-center align-items-center">
+            <div>
+                <div class="fw-bold"> name: {{ first_name }} {{ last_name }}, gender: {{ gender }}, date: {{ date }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer row align-items-end">
+    </div>
+
+    <div class="row position-fixed top-0 start-0 w-100 h-100 water-mark z-n1"></div>
+</body>
+
+</html>
